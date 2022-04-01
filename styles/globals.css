@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgLiner{
+  background: linear-gradient(36deg ,#D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
+  filter: blur(150px);
+}
+.bg2linear{
+  background: linear-gradient(200deg ,#D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
+  filter: blur(220px);
+}
+.bg3linear{
+  background: linear-gradient(200deg ,#D798E1 17.55%, #9BFFA5 27.56%, #AED3FF 49.89%, #C9D4EF 56.53%, #CACFFA 65.69%);
+  filter: blur(400px);
+}
+.featuresBg{
+  background-color: rgba(215, 152, 225, 0.15);
+}
+.productLand{
+  background: rgba(255, 255, 255, 0.69);
+}
+
+.boxBorder{
+  border: 2px solid rgba(97, 153, 237, 0.26);
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.mySwiper{
+  padding-bottom: 50px !important;
+}
+.swiper-pagination {
+  bottom: 0 !important;
+}
+.swiper-pagination-bullet{
+  width: 16px !important;
+  height: 16px !important;
+  background-color: #E0E4FC !important;
+  opacity: 1 !important;
+  transition: .3s;
+}
+.swiper-pagination-bullet-active{
+  transform: scale(1.4);
+  background-color: #6B7CFF !important;
+}
+
+.btnClicked{
+  background-color: #1D2130;
+  color: #FFFFFF;
+}
+.btnNotClicked{
+  background-color: transparent;
+  color:#1D2130 ;
+}
